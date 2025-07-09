@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fefefe;
+  color: #222;
+}
+
+header.hero {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(to right, #203a43, #2c5364);
+  color: white;
+}
+
+header.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: #007f5f;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 300px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.about-wrapper {
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.about-highlight {
+  margin-top: 30px;
+  background: #e7f9f3;
+  border-left: 5px solid #007f5f;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.blog-card a {
+  color: #007f5f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.testimonial {
+  font-style: italic;
+  border-left: 4px solid #007f5f;
+}
+
+#contact {
+  background: #f3f8fc;
+  padding: 80px 20px;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#contact input, #contact textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+#contact button {
+  background: #007f5f;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.contact-links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  background: #203a43;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-btn.whatsapp {
+  background: #25d366;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #2c5364;
+  color: white;
+}
